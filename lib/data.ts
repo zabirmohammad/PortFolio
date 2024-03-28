@@ -68,32 +68,37 @@ export const projectsData = [
   {
     title:
       "Self-Writer: Clusterable Embedding Based Self-Supervised Writer Recognition from Unlabeled Data",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+    authors:
+      "Zabir Mohammad, Muhammad Mohsin Kabir, Muhammad Mostafa Monowar, Md Abdul Hamid, Muhammad Firoz Mridha",
+    journal_name: "MDPI Mathematics",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: self_writer,
   },
   {
     title:
-      "AnEnhanced Ensemble Deep Neural Network Approach for Elderly Fall Detection System Based on Wearable Sensors",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "An Enhanced Ensemble Deep Neural Network Approach for Elderly Fall Detection System Based on Wearable Sensors",
+    authors:
+      "Zabir Mohammad, Arif Reza Anwary, Muhammad Firoz Mridha, Md Sakib Hossain Shovon, Michael Vassallo",
+    journal_name: "MDPI Sensors",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: ensemble,
   },
   {
     title:
       "An Unsupervised Writer Identification Based on Generating Clusterable Embeddings",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    authors:
+      "MF Mridha, Zabir Mohammad, Muhammad Mohsin Kabir, Aklima Akter Lima, Sujoy Chandra Das, Md Rashedul Islam, Yutaka Watanobe",
+    journal_name: "Computer Systems Science & Engineering",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: u_writer,
   },
   {
     title:
       "An Offline Writer-independent Signature Verification System using AutoEmbedder",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+    authors:
+      "Zabir Mohammad, Israt Jahan, Md Mohsin Kabir, M Ameer Ali, MF Mridha",
+    journal_name:
+      "2021 24th International Conference on Computer and Information Technology (ICCIT), Bangladesh (IEEE).",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: signature,
   },
