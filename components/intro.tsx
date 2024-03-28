@@ -63,7 +63,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        I'm
+        I&apos;m
       </motion.h6>
 
       <motion.h1
