@@ -1,0 +1,22 @@
+{
+  "node": {
+    "9063896156bd30060d02394f27372801c6cae22b": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CUser%5C%5CDocuments%5C%5Czabir_portfolio%5C%5Cactions%5C%5CsendEmail.ts%22%2C%5B%22sendEmail%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
+    "c7a137ed09a9615d2a9bf72183f5f9d39d4dc887": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CUser%5C%5CDocuments%5C%5Czabir_portfolio%5C%5Cactions%5C%5CsendEmail.ts%22%2C%5B%22sendEmail%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "aixkWGMR58v0P+EKe5pIeZulYb34NK6LgD5SY+Mu/yI="
+}
