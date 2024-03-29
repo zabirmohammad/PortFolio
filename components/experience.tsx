@@ -14,6 +14,12 @@ import { useTheme } from "@/context/theme-context";
 export default function Experience() {
   const { ref, inView } = useSectionInView("Experience");
   const { theme } = useTheme();
+  const [isVisible, setIsVisible] = React.useState(false);
+  React.useEffect(() => {
+    if (inView) {
+      setIsVisible(true);
+    }
+  }, [inView]);
 
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
@@ -36,7 +42,7 @@ export default function Experience() {
                     ? "0.4rem solid #9ca3af"
                     : "0.4rem solid rgba(255, 255, 255, 0.5)",
               }}
-              visible={true} //No animation only for see
+              visible={isVisible}
               date={item.date}
               icon={item.icon}
               iconStyle={{
