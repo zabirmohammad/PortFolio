@@ -3,19 +3,19 @@
 import React from "react";
 import SectionHeading from "./section-heading";
 import { projectsData } from "@/lib/data";
-import Project from "./project";
+import Publication from "./publication";
 import { useSectionInView } from "@/lib/hooks";
 
-export default function Projects() {
-  const { ref } = useSectionInView("Projects", 0.5);
+export default function Publications() {
+  const { ref } = useSectionInView("Publications", 0.5);
 
   return (
-    <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
+    <section ref={ref} id="publications" className="scroll-mt-28 mb-28">
       <SectionHeading>My Publications</SectionHeading>
       <div>
-        {projectsData.map((project, index) => (
+        {projectsData.map((publication, index) => (
           <React.Fragment key={index}>
-            <Project {...project} />
+            <Publication {...publication} />
           </React.Fragment>
         ))}
       </div>
