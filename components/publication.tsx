@@ -7,7 +7,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 type ProjectProps = (typeof projectsData)[number];
 
-export default function Project({
+export default function Publication({
   title,
   authors,
   journal_name,
@@ -19,8 +19,8 @@ export default function Project({
     target: ref,
     offset: ["0 1", "1.33 1"],
   });
-  const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
-  const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
+  const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.5, 1]);
+  const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.5, 1]);
 
   return (
     <motion.div
@@ -54,7 +54,7 @@ export default function Project({
 
         <Image
           src={imageUrl}
-          alt="Project I worked on"
+          alt="Pubilocations I worked "
           quality={95}
           className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
         transition 
