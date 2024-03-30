@@ -32,7 +32,7 @@ export default function About() {
         revolve around{" "}
         <span className=" font-medium underline">
           deep learning algorithms, pattern recognition, computer vision, and
-          Signal Precessing
+          Signal Processing
         </span>
         .Recognized for my impactful publications, I am committed to pushing the
         boundaries of technology and continuously seek new horizons in research.
