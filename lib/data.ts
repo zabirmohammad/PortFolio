@@ -1,7 +1,5 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 // import corpcommentImg from "@/public/corpcomment.png";
 // import rmtdevImg from "@/public/rmtdev.png";
 // import wordanalyticsImg from "@/public/wordanalytics.png";
@@ -72,6 +70,7 @@ export const projectsData = [
       "Zabir Mohammad, Muhammad Mohsin Kabir, Muhammad Mostafa Monowar, Md Abdul Hamid, Muhammad Firoz Mridha",
     journal_name: "MDPI Mathematics",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    link: "https://www.mdpi.com/2227-7390/10/24/4796",
     imageUrl: self_writer,
   },
   {
@@ -81,6 +80,7 @@ export const projectsData = [
       "Zabir Mohammad, Arif Reza Anwary, Muhammad Firoz Mridha, Md Sakib Hossain Shovon, Michael Vassallo",
     journal_name: "MDPI Sensors",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    link: "https://www.mdpi.com/1424-8220/23/10/4774",
     imageUrl: ensemble,
   },
   {
@@ -90,6 +90,7 @@ export const projectsData = [
       "MF Mridha, Zabir Mohammad, Muhammad Mohsin Kabir, Aklima Akter Lima, Sujoy Chandra Das, Md Rashedul Islam, Yutaka Watanobe",
     journal_name: "Computer Systems Science & Engineering",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    link: "https://cdn.techscience.cn/files/csse/2023/TSP_CSSE-46-2/TSP_CSSE_32977/TSP_CSSE_32977.pdf",
     imageUrl: u_writer,
   },
   {
@@ -100,6 +101,7 @@ export const projectsData = [
     journal_name:
       "2021 24th International Conference on Computer and Information Technology (ICCIT), Bangladesh (IEEE).",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    link: "https://ieeexplore.ieee.org/abstract/document/9689780s",
     imageUrl: signature,
   },
 ] as const;
@@ -124,4 +126,16 @@ export const skillsData = [
   "Next.js",
   "Tailwind",
   "MySQL",
+] as const;
+
+export const interest = [
+  "Machine Learning",
+  "Deep Learning",
+  "Computer Vision",
+  "Signal Processing",
+  "Self-Supervised Learning",
+  "Generative Adversarial Network",
+  "Reinforcement Learning",
+  "Data Structure",
+  "Algorithm",
 ] as const;
