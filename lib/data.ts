@@ -112,7 +112,7 @@ export const skillsData = [
   "Pandas",
   "NumPy",
   "Matplotlib",
-  "Pytourch",
+  "Pytorch",
   "Albumentation",
   "Python",
   "C/C++",
