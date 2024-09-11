@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { link } from "fs";
+//import { link } from "fs";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -14,6 +14,7 @@ export default function Publication({
   journal_name,
   tags,
   imageUrl,
+  link,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -41,6 +42,10 @@ export default function Publication({
           <p className=" leading-relaxed font-mono text-gray-700 dark:text-white/70">
             {journal_name}
           </p>
+          <a className="font-small" href={link} target="_blank">
+            <span className=" font-medium underline">See More</span>
+          </a>
+
           {/* <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
             {tags.map((tag, index) => (
               <li

@@ -101,7 +101,7 @@ export const projectsData = [
     journal_name:
       "2021 24th International Conference on Computer and Information Technology (ICCIT), Bangladesh (IEEE).",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    link: "https://ieeexplore.ieee.org/abstract/document/9689780s",
+    link: "https://ieeexplore.ieee.org/abstract/document/9689780",
     imageUrl: signature,
   },
 ] as const;
