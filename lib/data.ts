@@ -69,7 +69,7 @@ export const projectsData = [
     authors:
       "Zabir Mohammad, Muhammad Mohsin Kabir, Muhammad Mostafa Monowar, Md Abdul Hamid, Muhammad Firoz Mridha",
     journal_name: "MDPI Mathematics",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    tags: ["Abstract", "PDF", "Github", "See More"],
     link: "https://www.mdpi.com/2227-7390/10/24/4796",
     imageUrl: self_writer,
   },
@@ -79,7 +79,7 @@ export const projectsData = [
     authors:
       "Zabir Mohammad, Arif Reza Anwary, Muhammad Firoz Mridha, Md Sakib Hossain Shovon, Michael Vassallo",
     journal_name: "MDPI Sensors",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    tags: ["Abstract", "PDF", "Github", "See More"],
     link: "https://www.mdpi.com/1424-8220/23/10/4774",
     imageUrl: ensemble,
   },
@@ -89,7 +89,7 @@ export const projectsData = [
     authors:
       "MF Mridha, Zabir Mohammad, Muhammad Mohsin Kabir, Aklima Akter Lima, Sujoy Chandra Das, Md Rashedul Islam, Yutaka Watanobe",
     journal_name: "Computer Systems Science & Engineering",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    tags: ["Abstract", "PDF", "Github", "See More"],
     link: "https://cdn.techscience.cn/files/csse/2023/TSP_CSSE-46-2/TSP_CSSE_32977/TSP_CSSE_32977.pdf",
     imageUrl: u_writer,
   },
@@ -100,7 +100,7 @@ export const projectsData = [
       "Zabir Mohammad, Israt Jahan, Md Mohsin Kabir, M Ameer Ali, MF Mridha",
     journal_name:
       "2021 24th International Conference on Computer and Information Technology (ICCIT), Bangladesh (IEEE).",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    tags: ["Abstract", "PDF", "Github", "See More"],
     link: "https://ieeexplore.ieee.org/abstract/document/9689780",
     imageUrl: signature,
   },
